@@ -25,5 +25,13 @@ public class Rectangle {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+	
+	public double getArea() {
+		return width * height;
+	}
+	
+	public double getPerimeter() {
+		return 2*(width+height);
+	}
 
 }
